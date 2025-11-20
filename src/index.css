@@ -2,11 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+@font-face {
+  font-family: "Daydream";
+  src: url("./assets/fonts/Daydream.otf") format("opentype");
+}
 
+@font-face {
+  font-family: "Tamzen";
+  src: url("./assets/fonts/Tamzen10x20r.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Tamzen";
+  src: url("./assets/fonts/Tamzen10x20b.ttf") format("truetype");
+  font-weight: bold;
+}
+
+:root {
+  font-family: "Tamzen";
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
