@@ -1,8 +1,10 @@
 import Navbar from "./components/Navbar";
+import BackgroundPattern from "./components/BackgroundPattern";
 
 export default function App() {
   return (
     <div className="min-h-screen bg-gray-100">
+      <BackgroundPattern />
       <Navbar />
       <div className="flex flex-col items-center justify-center min-h-screen">
         <h1 className="text-2xl font-bold  text-blue-600">
