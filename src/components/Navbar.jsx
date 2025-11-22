@@ -9,12 +9,9 @@ const Navbar = () => {
   ];
 
   const zigzag = {
-    "--m": `
-      conic-gradient(from -45deg at bottom, #0000, #000 1deg 89deg, #0000 90deg) bottom/40px 20px repeat-x,
-      linear-gradient(#000 0 0) top/100% calc(100% - 20px) no-repeat
-    `,
-    WebkitMask: "var(--m)",
-    mask: "var(--m)",
+    mask: "conic-gradient(from -45deg at bottom,#0000,#000 1deg 89deg,#0000 90deg) 50%/40px 100%",
+    WebkitMask:
+      "conic-gradient(from -45deg at bottom,#0000,#000 1deg 89deg,#0000 90deg) 50%/40px 100%",
   };
 
   const handleNavClick = (href) => {};
